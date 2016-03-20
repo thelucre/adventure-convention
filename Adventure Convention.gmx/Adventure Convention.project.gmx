@@ -6,12 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_player_up</sprite>
+      <sprite>sprites\spr_player_down</sprite>
+      <sprite>sprites\spr_player_left</sprite>
+      <sprite>sprites\spr_player_right</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkdTiles</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_character_create.gml</script>
+    <script>scripts\spr_character_step.gml</script>
+    <script>scripts\trace.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objPlayer</object>
   </objects>
