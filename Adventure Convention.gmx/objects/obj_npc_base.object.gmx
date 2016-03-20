@@ -28,6 +28,7 @@
             <string>event_inherited();
 
 character_name = "player";
+message = "Big ol farts, friendo!";
 </string>
           </argument>
         </arguments>

@@ -54,28 +54,25 @@ character_name = "player";
 
 xspeed = 0;
 yspeed = 0;
-trace(character_name);
 
-if(keyboard_check(vk_down) &amp;&amp; place_free(x,y+movement_speed)) {
+if(keyboard_check(vk_down)) {
     direction = 2;
-    yspeed = movement_speed;
-    
+    if(place_free(x,y+movement_speed)) yspeed = movement_speed; 
 } 
 
-if(keyboard_check(vk_up) &amp;&amp; place_free(x,y-movement_speed)) {
+if(keyboard_check(vk_up)) {
     direction = 0;
-    yspeed = -movement_speed;
-    
+    if(place_free(x,y-movement_speed)) yspeed = -movement_speed;
 } 
 
-if(keyboard_check(vk_left) &amp;&amp; place_free(x-movement_speed,y)) {
+if(keyboard_check(vk_left)) {
     direction = 3;
-    xspeed = -movement_speed;
-    
+    if(place_free(x-movement_speed,y)) xspeed = -movement_speed; 
 } 
-if (keyboard_check(vk_right) &amp;&amp; place_free(x+movement_speed,y)) { 
+
+if (keyboard_check(vk_right)) { 
     direction = 1;
-    xspeed = movement_speed;
+    if(place_free(x+movement_speed,y)) xspeed = movement_speed;
 }
 
 x += xspeed;

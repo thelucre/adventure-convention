@@ -1,5 +1,5 @@
 sprite_index    = 0;
-direction       = 0;
+direction       = 2;
 image_speed     = 0.2;
 animation_index = 0;
 xspeed          = 0;
