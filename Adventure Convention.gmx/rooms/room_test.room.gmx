@@ -54,6 +54,7 @@
     <instance objName="obj_conifer" x="256" y="320" name="inst_019AD813" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="160" y="256" name="inst_E4F72810" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp_trigger" x="416" y="288" name="inst_F0F1486C" locked="0" code="target = room_second;&#xA;xpos = 32;&#xA;ypos = 320;&#xA;" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc_base" x="288" y="384" name="inst_D8220AA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bkdTiles" x="0" y="0" w="32" h="32" xo="0" yo="64" id="10000002" name="inst_B5C7813C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

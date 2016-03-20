@@ -31,11 +31,15 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_character_base</object>
     <objects name="environment">
       <object>objects\obj_conifer</object>
     </objects>
     <objects name="engine">
       <object>objects\obj_warp_trigger</object>
+    </objects>
+    <objects name="npcs">
+      <object>objects\obj_npc_base</object>
     </objects>
   </objects>
   <rooms name="rooms">
