@@ -15,6 +15,9 @@
     <sprites name="environment">
       <sprite>sprites\spr_conifer</sprite>
     </sprites>
+    <sprites name="engine">
+      <sprite>sprites\spr_warp_trigger</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkdTiles</background>
@@ -31,9 +34,13 @@
     <objects name="environment">
       <object>objects\obj_conifer</object>
     </objects>
+    <objects name="engine">
+      <object>objects\obj_warp_trigger</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\roomTest</room>
+    <room>rooms\room_test</room>
+    <room>rooms\room_second</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
