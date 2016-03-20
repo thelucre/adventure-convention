@@ -12,6 +12,9 @@
       <sprite>sprites\spr_player_left</sprite>
       <sprite>sprites\spr_player_right</sprite>
     </sprites>
+    <sprites name="environment">
+      <sprite>sprites\spr_conifer</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkdTiles</background>
@@ -21,9 +24,13 @@
     <script>scripts\scr_character_create.gml</script>
     <script>scripts\spr_character_step.gml</script>
     <script>scripts\trace.gml</script>
+    <script>scripts\scr_set_depth.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\objPlayer</object>
+    <object>objects\obj_player</object>
+    <objects name="environment">
+      <object>objects\obj_conifer</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomTest</room>

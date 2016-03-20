@@ -1,4 +1,5 @@
 var path = "";
+depth = -y;
 
 // simple movement forks 
 
