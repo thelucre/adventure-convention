@@ -28,6 +28,7 @@
             <string>event_inherited();
 
 character_name = "player";
+action_pressed = false;
 </string>
           </argument>
         </arguments>
@@ -77,6 +78,8 @@ if (keyboard_check(vk_right)) {
 
 x += xspeed;
 y += yspeed;
+
+action_pressed = (keyboard_check_pressed(vk_space));
 </string>
           </argument>
         </arguments>

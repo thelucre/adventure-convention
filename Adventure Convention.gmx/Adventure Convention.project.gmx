@@ -26,8 +26,9 @@
   <scripts name="scripts">
     <script>scripts\scr_character_create.gml</script>
     <script>scripts\spr_character_step.gml</script>
-    <script>scripts\trace.gml</script>
+    <script>scripts\log.gml</script>
     <script>scripts\scr_set_depth.gml</script>
+    <script>scripts\direction_from_point.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
