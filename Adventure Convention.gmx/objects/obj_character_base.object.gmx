@@ -132,7 +132,7 @@
             <kind>1</kind>
             <string>draw_self();
 
-draw_circle(x, y, 24, true);
+draw_circle(x, y, 12, true);
 </string>
           </argument>
         </arguments>

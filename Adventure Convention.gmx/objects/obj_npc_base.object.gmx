@@ -28,7 +28,7 @@
             <string>event_inherited();
 
 character_name = "player";
-message = "Big ol farts, friendo!";
+message = "Big ol hello, friendo!";
 
 within_player_distance = false;
 </string>
@@ -68,9 +68,8 @@ if(within_player_distance &amp;&amp;
    abs(player_direction - obj_player.direction) == 2 ) {
    
   direction = player_direction; 
-  log(abs(player_direction - obj_player.direction));
-  log('MESSAGE: ' + message);
   
+  log('MESSAGE: ' + message);
 }
 </string>
           </argument>
